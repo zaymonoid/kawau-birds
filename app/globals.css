@@ -98,6 +98,7 @@
   header.hero h1 em { color: var(--bush); }
   header.hero .reo { font-family: var(--font-newsreader), serif; font-style: italic; font-size: clamp(20px, 2.6vw, 28px); color: var(--ink-soft); margin-top: 14px; }
   header.hero .lede { font-size: 19px; max-width: 620px; margin-top: 32px; }
+  header.hero .hero-more { display: inline-block; margin-top: 8px; font-size: 17px; font-weight: 500; }
   .facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin-top: 56px; border-top: 1px solid var(--rule); }
   .facts div { padding: 18px 18px 0 0; }
   .facts b { display: block; font: 400 34px/1 var(--font-newsreader), serif; color: var(--ink); }
@@ -306,3 +307,4 @@
     .tl .yr { font-size: 17px; padding-right: 14px; }
     .tl .ev::before { left: -31px; }
   }
+

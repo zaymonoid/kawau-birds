@@ -43,6 +43,7 @@ export default function Home() {
             Island weka once lived, and an Australian kookaburra laughs over the bush. It's there because a
             nineteenth-century governor wanted his own Eden.
           </p>
+          <Link className="hero-more" href="/history">Learn about Kawau's natural history →</Link>
           <div className="facts">
             <div><b>~2,000 ha</b><span>about 8 × 5 km, bisected by Bon Accord Harbour</span></div>
             <div><b>50+</b><span>bird species recorded through the year</span></div>
