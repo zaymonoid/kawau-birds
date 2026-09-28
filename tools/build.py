@@ -114,6 +114,10 @@ for g in ORDER:
 {tiles}
       </div>
     </section>''')
+toc = "\n".join(
+    f'''        <li><a class="tg" href="#g-{g}">{e(groups[g]["group_title"])}</a>
+          <ol>{"".join(f'<li><a href="birds/{sp["slug"]}/">{e(sp["name"])}</a></li>' for sp in groups[g]["species"])}</ol></li>'''
+    for g in ORDER)
 guide = f'''<!-- FIELD GUIDE START -->
 <section id="guide" class="directory">
   <div class="wrap">
@@ -121,9 +125,19 @@ guide = f'''<!-- FIELD GUIDE START -->
       <div class="eyebrow">Field guide</div>
       <h2>Which bird did you see?</h2>
       <p class="intro">From kiwi in the gullies to gannets offshore, {len(birds)} kinds of bird live on or visit Kawau. Find yours below, then tap it for its story, its habits and the best places to look for it on the island.</p>
-      <nav class="chips" aria-label="Bird groups">{chips}</nav>
     </div>
+    <div class="dir">
+      <nav class="toc" aria-label="Birds by group">
+        <div class="toc-title">Jump to</div>
+        <ol>
+{toc}
+        </ol>
+      </nav>
+      <div class="dir-main">
+        <nav class="chips" aria-label="Bird groups">{chips}</nav>
 {chr(10).join(sections)}
+      </div>
+    </div>
   </div>
 </section>
 <!-- FIELD GUIDE END -->'''
@@ -221,14 +235,26 @@ def detail(i, g, sp):
 
 # ---------- CSS ----------
 css = '''  /* ---------- field guide ---------- */
-  .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; }
   .chips a { display: inline-flex; gap: 8px; align-items: center; padding: 8px 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--ink); text-decoration: none; font-size: 15px; }
   .chips a:hover { border-color: var(--pohutukawa); color: var(--pohutukawa); }
   .chips a span { font: 500 12px/1 "IBM Plex Mono", monospace; color: var(--ink-soft); }
   section.directory { padding-top: 88px; }
+  /* table of contents: sticky sidebar on wide screens, sticky chip bar otherwise */
+  .dir { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 56px; align-items: start; }
+  .toc { position: sticky; top: 76px; max-height: calc(100vh - 96px); overflow-y: auto; padding: 4px 8px 24px 0; margin-top: 56px; scrollbar-width: thin; }
+  .toc-title { font: 500 11px/1 "IBM Plex Mono", monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--ochre); margin-bottom: 14px; }
+  .toc ol { list-style: none; margin: 0; padding: 0; }
+  .toc > ol > li { margin-bottom: 14px; }
+  .toc a { color: var(--ink-soft); text-decoration: none; }
+  .toc a:hover { color: var(--pohutukawa); }
+  .toc a.tg { display: block; font: 500 17px/1.3 "Newsreader", serif; color: var(--ink); margin-bottom: 4px; }
+  .toc ol ol { border-left: 1px solid var(--rule); padding-left: 12px; }
+  .toc ol ol a { display: block; font-size: 13.5px; line-height: 1.35; padding: 2px 0; }
+  .dir-main .chips { display: none; }
   .dir-head .intro { max-width: 680px; }
   .gal-group { margin-top: 64px; padding: 0; border-bottom: 0; scroll-margin-top: 64px; }
-  .dir-head + .gal-group { margin-top: 56px; }
+  .dir-main > .gal-group:first-of-type { margin-top: 56px; }
   .gal-group .gh { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 12px 40px; align-items: baseline; border-top: 2px solid var(--ink); padding-top: 16px; }
   .gal-group h3 { font-size: 30px; }
   .gal-group .gh p { margin: 0; font-size: 15px; color: var(--ink-soft); }
@@ -276,6 +302,16 @@ css = '''  /* ---------- field guide ---------- */
   details.more { margin-top: 20px; border-top: 1px solid var(--rule); padding-top: 14px; }
   details.more summary { cursor: pointer; font-weight: 500; }
   details.more .sources { margin-top: 14px; }
+  @media (max-width: 1080px) {
+    .dir { grid-template-columns: minmax(0, 1fr); gap: 0; }
+    .toc { display: none; }
+    .dir-main .chips { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; position: sticky; top: 52px; z-index: 5;
+      margin: 32px -24px 0; padding: 10px 24px; background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
+    .dir-main .chips::-webkit-scrollbar { display: none; }
+    .dir-main .chips a { flex: none; padding: 6px 12px; font-size: 14px; }
+    .gal-group { scroll-margin-top: 128px; }
+    .dir-main .chips + .gal-group { margin-top: 40px; }
+  }
   @media (max-width: 860px) {
     .gal-group .gh, .detail { grid-template-columns: 1fr; }
     .detail { gap: 28px; }
@@ -283,6 +319,7 @@ css = '''  /* ---------- field guide ---------- */
     .d-img img { max-height: 60vh; }
   }
   @media (max-width: 560px) {
+    .dir-main .chips { margin: 24px -16px 0; padding: 10px 16px; }
     .gal { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 12px; }
     .tile .tn { font-size: 17px; }
     .tile .tm { font-size: 14px; }
