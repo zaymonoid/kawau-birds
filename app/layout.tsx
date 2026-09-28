@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Mono, IBM_Plex_Sans, Newsreader } from "next/font/google";
+import { ViewTransition } from "react";
 import "./globals.css";
 
 // latin-ext covers the macrons in te reo Māori (ā ē ī ō ū)
@@ -28,7 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" data-scroll-behavior="smooth" className={`${newsreader.variable} ${plexSans.variable} ${plexMono.variable}`}>
       <body>
-        {children}
+        <ViewTransition>{children}</ViewTransition>
         <footer>
           <div className="wrap">The Birds of Kawau Island · A field guide to Te Kawau Tūmaro o Toi, Hauraki Gulf</div>
         </footer>
