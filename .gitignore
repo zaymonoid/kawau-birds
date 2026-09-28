@@ -1,3 +1,9 @@
 .kata.local.toml
 .playwright-mcp
 .DS_STORE
+
+# Next.js
+/node_modules
+/.next
+next-env.d.ts
+*.tsbuildinfo
