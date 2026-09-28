@@ -70,11 +70,11 @@ def maori_of(sp):
 
 def nav(root, current):
     cur = ' aria-current="page"'
-    links = [("Birds", f"{root}#guide", "birds"), ("History", f"{root}history/", "history"), ("Sources", "#sources", "sources")]
+    links = [("Birds", f"{root}index.html#guide", "birds"), ("History", f"{root}history/index.html", "history"), ("Sources", "#sources", "sources")]
     items = "\n".join(f'    <a class="l"{cur if k == current else ""} href="{h}">{l}</a>' for l, h, k in links)
     return f'''<nav class="top" aria-label="Site">
   <div class="wrap">
-    <a class="mark" href="{root}">Birds of Kawau</a>
+    <a class="mark" href="{root}index.html">Birds of Kawau</a>
 {items}
   </div>
 </nav>'''
@@ -96,7 +96,7 @@ def tile(sp):
     rare = '<span class="rare">Rare here</span>' if sp.get("presence_note") else ""
     m = maori_of(sp)
     tm = f'<span class="tm">{e(m)}</span>' if m else ""
-    return (f'        <a class="tile" id="sp-{slug}" href="birds/{slug}/">'
+    return (f'        <a class="tile" id="sp-{slug}" href="birds/{slug}/index.html">'
             f'<span class="ti">{img}{rare}</span>'
             f'<span class="tt"><span class="tn">{e(sp["name"])}</span>{tm}</span></a>')
 
@@ -116,7 +116,7 @@ for g in ORDER:
     </section>''')
 toc = "\n".join(
     f'''        <li><a class="tg" href="#g-{g}">{e(groups[g]["group_title"])}</a>
-          <ol>{"".join(f'<li><a href="birds/{sp["slug"]}/">{e(sp["name"])}</a></li>' for sp in groups[g]["species"])}</ol></li>'''
+          <ol>{"".join(f'<li><a href="birds/{sp["slug"]}/index.html">{e(sp["name"])}</a></li>' for sp in groups[g]["species"])}</ol></li>'''
     for g in ORDER)
 guide = f'''<!-- FIELD GUIDE START -->
 <section id="guide" class="directory">
@@ -143,7 +143,7 @@ guide = f'''<!-- FIELD GUIDE START -->
 <!-- FIELD GUIDE END -->'''
 
 # ---------- home: credits ----------
-photo_credits = "".join(f'<li><a href="birds/{sp["slug"]}/">{e(sp["name"])}</a>: {credit_line(image_for(sp["slug"]))}</li>'
+photo_credits = "".join(f'<li><a href="birds/{sp["slug"]}/index.html">{e(sp["name"])}</a>: {credit_line(image_for(sp["slug"]))}</li>'
                         for _, sp in birds if image_for(sp["slug"]))
 sources = f'''<!-- SOURCES START -->
 <section id="sources" style="border-bottom:0">
@@ -152,7 +152,7 @@ sources = f'''<!-- SOURCES START -->
     <h2 style="font-size:32px">Sources &amp; credits</h2>
     <ul class="sources">
       <li>Each bird's page lists the sources for its story and facts.</li>
-      <li>Background reading on the island and its history is on the <a href="history/#sources">History</a> page.</li>
+      <li>Background reading on the island and its history is on the <a href="history/index.html#sources">History</a> page.</li>
       <li>Map elevation: <a href="https://registry.opendata.aws/copernicus-dem/">Copernicus GLO-30 DEM</a> © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018, provided under COPERNICUS by the European Union and ESA, via AWS Open Data. Contours at 20&nbsp;m derived for this page.</li>
     </ul>
     <details class="more">
@@ -178,7 +178,7 @@ def detail(i, g, sp):
     names = (f'<span class="mi">{e(m)}</span> · ' if m else "") + f'<span class="sci">{e(sp["sci"])}</span>'
     presence = f'\n        <p class="pn">{e(sp["presence_note"])}</p>' if sp.get("presence_note") else ""
     story = (f'\n        <p class="more-story">There’s more about this bird on Kawau in '
-             f'<a href="{root}history/#story-{STORIES[slug]}">the island’s history</a>.</p>') if slug in STORIES else ""
+             f'<a href="{root}history/index.html#story-{STORIES[slug]}">the island’s history</a>.</p>') if slug in STORIES else ""
     srcs = "".join(f'<li><a href="{e(u)}">{e(host(u))}</a></li>' for u in sp.get("sources", []))
     prev = birds[i - 1][1]
     nxt = birds[(i + 1) % len(birds)][1]
@@ -198,7 +198,7 @@ def detail(i, g, sp):
 
 <main class="bird-page">
   <div class="wrap">
-    <a class="back" href="{root}#g-{g}">← {e(grp["group_title"])}</a>
+    <a class="back" href="{root}index.html#g-{g}">← {e(grp["group_title"])}</a>
     <article class="detail">
       {fig}
       <div class="d-body">
@@ -214,8 +214,8 @@ def detail(i, g, sp):
       </div>
     </article>
     <nav class="pager" aria-label="More birds">
-      <a class="prev" href="{root}birds/{prev["slug"]}/"><span>Previous</span>{e(prev["name"])}</a>
-      <a class="next" href="{root}birds/{nxt["slug"]}/"><span>Next</span>{e(nxt["name"])}</a>
+      <a class="prev" href="{root}birds/{prev["slug"]}/index.html"><span>Previous</span>{e(prev["name"])}</a>
+      <a class="next" href="{root}birds/{nxt["slug"]}/index.html"><span>Next</span>{e(nxt["name"])}</a>
     </nav>
   </div>
 </main>
