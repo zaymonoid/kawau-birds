@@ -174,37 +174,73 @@
   .tl .ev span { color: var(--ink-soft); font-size: 15px; }
 
   /* ---------- field guide ---------- */
-  .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
   .chips a { display: inline-flex; gap: 8px; align-items: center; padding: 8px 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--ink); text-decoration: none; font-size: 15px; }
   .chips a:hover { border-color: var(--pohutukawa); color: var(--pohutukawa); }
   .chips a span { font: 500 12px/1 "IBM Plex Mono", monospace; color: var(--ink-soft); }
-  section.guide-intro { border-bottom: 0; padding-bottom: 0; }
-  section.guide-group { padding: 72px 0; }
-  .sp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; margin-top: 40px; }
-  .sp { background: var(--card); border: 1px solid var(--rule); border-radius: 4px; box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column; scroll-margin-top: 72px; }
-  .sp .ph { margin: 0; position: relative; aspect-ratio: 4 / 3; background: var(--paper-2); }
-  .sp .ph img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
-  .sp .ph figcaption { position: absolute; right: 0; bottom: 0; max-width: 100%; padding: 3px 8px; font-size: 10.5px; line-height: 1.4; color: #f4efe4; background: rgba(20, 26, 23, .62); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .sp .ph figcaption a { color: inherit; }
-  .sp .ph.empty { display: grid; place-items: center; }
-  .sp .ph.empty span { font: italic 300 96px/1 "Newsreader", serif; color: var(--rule); }
-  .sp .bd { padding: 20px 22px 22px; display: flex; flex-direction: column; flex: 1; }
-  .sp .tags { margin: 0 0 12px; }
-  .sp h3 { font-size: 25px; }
-  .sp .nm { font-size: 14px; margin: 4px 0 12px; color: var(--ink-soft); }
-  .sp .nm .mi { font-family: "Newsreader", serif; font-style: italic; color: var(--bush); font-size: 16px; }
-  .sp p { font-size: 15px; line-height: 1.55; margin: 0 0 .7em; }
-  .sp p b { font-weight: 600; }
-  .sp .pn { font-size: 13.5px; color: var(--ochre); border-left: 2px solid var(--ochre); padding-left: 10px; }
-  .sp .ff { background: var(--paper-2); padding: 10px 12px; border-radius: 3px; }
-  .sp .ff span { display: block; font: 500 10.5px/1.6 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--pohutukawa); }
-  .sp .where { margin-top: auto; padding-top: 12px; border-top: 1px dashed var(--rule); font: italic 16px/1.45 "Newsreader", serif; color: var(--ink-soft); margin-bottom: 0; }
+  section.directory { padding-top: 88px; }
+  .dir-head .intro { max-width: 680px; }
+  .gal-group { margin-top: 64px; padding: 0; border-bottom: 0; scroll-margin-top: 64px; }
+  .dir-head + .gal-group { margin-top: 56px; }
+  .gal-group .gh { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 12px 40px; align-items: baseline; border-top: 2px solid var(--ink); padding-top: 16px; }
+  .gal-group h3 { font-size: 30px; }
+  .gal-group .gh p { margin: 0; font-size: 15px; color: var(--ink-soft); }
+  .gal { display: grid; grid-template-columns: repeat(auto-fill, minmax(176px, 1fr)); gap: 20px 16px; margin-top: 28px; }
+  .tile { display: block; color: var(--ink); text-decoration: none; scroll-margin-top: 80px; }
+  .tile .ti { display: block; position: relative; aspect-ratio: 1 / 1; overflow: hidden; border-radius: 4px; background: var(--paper-2); box-shadow: var(--shadow); }
+  .tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .35s ease; }
+  .tile:hover img, .tile:focus-visible img { transform: scale(1.04); }
+  .tile .ph-empty { position: absolute; inset: 0; display: grid; place-items: center; font: italic 300 64px/1 "Newsreader", serif; color: var(--rule); }
+  .tile .rare { position: absolute; left: 8px; top: 8px; font: 500 10px/1 "IBM Plex Mono", monospace; letter-spacing: .08em; text-transform: uppercase; padding: 5px 6px; border-radius: 3px; background: var(--paper); color: var(--ochre); }
+  .tile .tt { display: block; padding: 10px 2px 0; }
+  .tile .tn { display: block; font: 500 19px/1.2 "Newsreader", serif; }
+  .tile:hover .tn { color: var(--pohutukawa); }
+  .tile .tm { display: block; margin-top: 2px; font: italic 15px/1.3 "Newsreader", serif; color: var(--bush); }
+
+  /* ---------- bird detail page ---------- */
+  main.bird-page { padding: 32px 0 72px; }
+  .back { display: inline-block; font-size: 15px; color: var(--ink-soft); text-decoration: none; margin-bottom: 24px; }
+  .back:hover { color: var(--pohutukawa); }
+  .detail { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+  .d-img { margin: 0; position: sticky; top: 76px; }
+  .d-img img { display: block; width: 100%; max-height: 78vh; object-fit: contain; object-position: left top; border-radius: 4px; }
+  .d-img.empty { aspect-ratio: 4 / 3; background: var(--paper-2); border-radius: 4px; }
+  .d-img figcaption { margin-top: 8px; font-size: 12.5px; color: var(--ink-soft); }
+  .d-img figcaption a { color: inherit; }
+  .d-body h1 { font-size: clamp(38px, 5vw, 58px); margin-top: 6px; }
+  .d-body .tags { margin: 0 0 14px; }
+  .d-body .nm { margin-top: 8px; font-size: 16px; color: var(--ink-soft); }
+  .d-body .nm .mi { font: italic 20px "Newsreader", serif; color: var(--bush); }
+  .d-body .where { margin: 22px 0 0; font: italic 22px/1.4 "Newsreader", serif; color: var(--ink); }
+  .d-body .pn { margin: 16px 0 0; font-size: 15px; color: var(--ochre); border-left: 2px solid var(--ochre); padding-left: 12px; }
+  .d-body h2 { font-size: 13px; font-family: "IBM Plex Mono", monospace; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--ochre); margin: 32px 0 8px; }
+  .d-body p { font-size: 17px; }
+  .d-body .ff { margin-top: 28px; background: var(--card); border: 1px solid var(--rule); border-left: 3px solid var(--pohutukawa); padding: 16px 18px; border-radius: 3px; font-size: 17px; }
+  .d-body .ff span { display: block; font: 500 11px/1.6 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--pohutukawa); margin-bottom: 4px; }
+  .d-body .more-story { margin-top: 24px; font-size: 15px; color: var(--ink-soft); }
+  .pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 64px; padding-top: 20px; border-top: 1px solid var(--rule); }
+  .pager a { color: var(--ink); text-decoration: none; font: 400 22px/1.2 "Newsreader", serif; }
+  .pager a:hover { color: var(--pohutukawa); }
+  .pager span { display: block; font: 500 11px/1.6 "IBM Plex Mono", monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+  .pager .next { text-align: right; }
   .tag.t-ok, .tag.t-risk, .tag.t-threat { background: transparent; border: 1px solid var(--rule); color: var(--ink-soft); padding: 5px 7px; }
   .tag.t-risk { border-color: var(--ochre); color: var(--ochre); }
   .tag.t-threat { border-color: var(--pohutukawa); color: var(--pohutukawa); }
   details.more { margin-top: 20px; border-top: 1px solid var(--rule); padding-top: 14px; }
   details.more summary { cursor: pointer; font-weight: 500; }
   details.more .sources { margin-top: 14px; }
+  @media (max-width: 860px) {
+    .gal-group .gh, .detail { grid-template-columns: 1fr; }
+    .detail { gap: 28px; }
+    .d-img { position: static; }
+    .d-img img { max-height: 60vh; }
+  }
+  @media (max-width: 560px) {
+    .gal { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 12px; }
+    .tile .tn { font-size: 17px; }
+    .tile .tm { font-size: 14px; }
+    .pager a { font-size: 18px; }
+  }
   /* ---------- pest free ---------- */
   .pf { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; margin-top: 48px; }
   .pf ol { margin: 0; padding: 0; list-style: none; counter-reset: s; }
@@ -241,7 +277,6 @@
     header.hero .contours .lbl { display: none; }
     .bird { padding: 22px 18px; }
     .bird svg.sil { width: 48px; height: 48px; }
-    .sp-grid { grid-template-columns: 1fr; }
     .bird h3 { font-size: 25px; }
     .timeline::before { left: 84px; }
     .tl { grid-template-columns: 84px 1fr; gap: 0 26px; }
