@@ -1,0 +1,948 @@
+{
+ "groups": [
+  {
+   "group": "seabirds",
+   "group_title": "Seabirds",
+   "group_intro": "Kawau is named for its shags, and seabirds are still the island's most visible residents. Pied shags nest in the pōhutukawa at Rocky Bay, gannets dive on the boat trip over, and kororā come ashore after dark.",
+   "species": [
+    {
+     "slug": "korora",
+     "name": "Little penguin",
+     "maori": "kororā",
+     "sci": "Eudyptula minor",
+     "origin": "native",
+     "threat_status": "At Risk – Declining (NZTCS)",
+     "history": "The world's smallest penguin breeds around the Hauraki Gulf islands, and kororā are occasionally spotted along Kawau's shoreline. They are one of the species the pest-free programme aims to protect, because introduced predators are a key threat.",
+     "behaviour": "Kororā spend the day at sea, chasing squid and small fish, usually in water less than 50 m deep. At dusk they gather in small 'rafts' offshore, then come ashore to burrows, rock crevices or the space under buildings.",
+     "fun_fact": "They are the only penguins that can lay more than one clutch in a season. Each summer they replace every feather at once and stay ashore for about two weeks.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/little-penguin",
+      "https://www.kawauisland.org/about-1",
+      "https://www.tiakitamakimakaurau.nz/get-involved/working-towards-a-pest-free-kawau-island/pest-free-kawau-island-programme/"
+     ],
+     "where": "Comes ashore along the rocky shoreline after dark, braying loudest from July to November."
+    },
+    {
+     "slug": "gannet",
+     "name": "Australasian gannet",
+     "maori": "tākapu",
+     "sci": "Morus serrator",
+     "origin": "native",
+     "threat_status": "Not Threatened (NZTCS)",
+     "history": "New Zealand holds most of the world's Australasian gannets, and the Hauraki Gulf has several colonies. By 2017 Mahuki Island, off Aotea, had grown to about 6,000 nests, while Horuhoru Rock had halved to about 1,000.",
+     "behaviour": "Tākapu fold back their 1.8 m wings and plunge like torpedoes into shoals of pilchard, anchovy and jack mackerel. At the nest, pairs fence bills and bow to each other, and a bird 'sky-points' before taking off.",
+     "fun_fact": "Gannets keep their egg warm under the webs of their feet. Young birds fly straight to Australia and usually don't come home until their third year.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/australasian-gannet",
+      "https://www.gbiet.org/en-articles/en42-takapu-gannets-of-the-hauraki-gulf",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen offshore and on the boat trip over, diving wherever fish are feeding."
+    },
+    {
+     "slug": "pied-shag",
+     "name": "Pied shag",
+     "maori": "kāruhiruhi",
+     "sci": "Phalacrocorax varius",
+     "origin": "native",
+     "threat_status": "At Risk – Recovering (NZTCS)",
+     "history": "Locals call it the 'Kawau shag', and it nests in the big pōhutukawa at Rocky Bay and other bays. Fishers once shot pied shags as rivals for fish. Northern North Island numbers are still declining.",
+     "behaviour": "Pied shags usually fish alone in water under 10 m deep, taking flounder, mullet, kahawai and trevally. Between fishing trips they stand on the sand below the Rocky Bay trees, wings spread to dry.",
+     "fun_fact": "They can nest in any month of the year. Egg-laying peaks twice, from February to April and again from August to October.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/pied-shag",
+      "https://www.kawauisland.org/nature",
+      "https://www.kawauisland.org/about-1"
+     ],
+     "where": "Nests in the pōhutukawa at Rocky Bay, and dries its wings on the beach below."
+    },
+    {
+     "slug": "black-shag",
+     "name": "Black shag",
+     "maori": "māpunga",
+     "sci": "Phalacrocorax carbo",
+     "origin": "native",
+     "threat_status": "At Risk – Relict (NZTCS)",
+     "history": "New Zealand's biggest shag is also called kawau. For decades anglers persecuted it, convinced it ate too many trout. Today fishing lines and set-nets are the greater danger, and 5,000–10,000 adults remain.",
+     "behaviour": "Black shags usually fish alone in water under 3 m deep, with dives of about 21 seconds. They eat mullet, spotties and eels, and even ducklings. Breeding adults grow a small crest and white thigh patches.",
+     "fun_fact": "Their underwater eyesight is poor. Instead of chasing fish, they may find prey by touch or at very close range, then grab it with a fast jab of the neck.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/black-shag"
+     ],
+     "where": "Commonly seen fishing Bon Accord Harbour or resting on rocks along the shore."
+    },
+    {
+     "slug": "little-shag",
+     "name": "Little shag",
+     "maori": "kawaupaka",
+     "sci": "Microcarbo melanoleucos",
+     "origin": "native",
+     "threat_status": "At Risk – Relict (NZTCS)",
+     "history": "This is New Zealand's most widespread shag, at home on coasts, lakes and rivers. Colonies around Auckland have declined since the 1980s, so in 2021 it was moved off the 'Not Threatened' list.",
+     "behaviour": "Little shags fish alone for small fish, eels and crustaceans. They nest in colonies of five to more than 200 pairs, in trees over water or on cliff ledges. Look for the stubby yellow bill and long tail.",
+     "fun_fact": "They come in three plumages, white-throated, pied and 'smudgy', and all interbreed. Pied birds are commoner in the north, so some look like miniature pied shags.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/little-shag"
+     ],
+     "where": "Commonly seen around the harbour edges, perched on rocks or branches over the water."
+    },
+    {
+     "slug": "caspian-tern",
+     "name": "Caspian tern",
+     "maori": "taranui",
+     "sci": "Hydroprogne caspia",
+     "origin": "native",
+     "threat_status": "Threatened – Nationally Vulnerable (NZTCS)",
+     "history": "The world's largest tern may be a newcomer here. Evidence suggests it colonised New Zealand recently, or was very restricted, until the early twentieth century. It now hunts the sheltered bays and harbours of all the main islands.",
+     "behaviour": "Caspian terns usually hunt alone. They cruise up to 15 m above the water, then dive steeply, often vanishing below the surface, and swallow their mullet, piper or smelt in flight. Their guttural call often comes first.",
+     "fun_fact": "With a 1 m wingspan and weighing about 700 g, it dwarfs every other New Zealand tern. The next largest, the crested tern, is half its weight.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/caspian-tern",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen over the bays and harbour, easy to pick out by its bright red bill."
+    },
+    {
+     "slug": "white-fronted-tern",
+     "name": "White-fronted tern",
+     "maori": "tara",
+     "sci": "Sterna striata",
+     "origin": "native",
+     "threat_status": "At Risk – Declining (NZTCS)",
+     "history": "This is the commonest tern on New Zealand coasts, sometimes in flocks of thousands, but numbers have fallen sharply over 40 years. Introduced predators and disturbance at breeding colonies are the main threats.",
+     "behaviour": "Tara dive from 5–10 m onto small fish driven to the surface by kahawai. Fishers follow the flocks, which is why they're called 'kahawai birds'. They nest in dense colonies on shingle and sand dunes.",
+     "fun_fact": "Pairs often stay together from year to year, yet colonies frequently move, even after a good season. In autumn some, mostly young birds, cross the Tasman to south-eastern Australia.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/white-fronted-tern",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen wheeling over fish boil-ups around the island."
+    }
+   ]
+  },
+  {
+   "group": "shore",
+   "group_title": "Shore & estuary",
+   "group_intro": "Kawau's rocky points, sandy bays and harbour edges are worked by waders and herons at every tide. Some are rare endemics. Others, like the white-faced heron and spur-winged plover, flew in on their own last century.",
+   "species": [
+    {
+     "slug": "variable-oystercatcher",
+     "name": "Variable oystercatcher",
+     "maori": "tōrea pango",
+     "sci": "Haematopus unicolor",
+     "origin": "endemic",
+     "threat_status": "At Risk – Recovering (NZTCS)",
+     "history": "Once shot for food, variable oystercatchers were protected in 1922 and have been recovering ever since, from about 2,000 in the early 1970s to 6,000–7,000 today. Auckland and Northland are strongholds.",
+     "behaviour": "Pairs hold their territory year-round, piping loudly at intruders and dive-bombing people who get near chicks. Unusually for waders, the parents bring food to chicks hidden under rocks or plants. On Kawau they drill rock oysters.",
+     "fun_fact": "They come in black, pied and 'smudgy' forms, all one species. Birds can live more than 37 years and usually don't breed until they are five or six.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/variable-oystercatcher",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen on rocky shores at low tide, working the oyster-covered rocks."
+    },
+    {
+     "slug": "nz-dotterel",
+     "name": "New Zealand dotterel",
+     "maori": "tūturiwhatu",
+     "sci": "Anarhynchus obscurus",
+     "origin": "endemic",
+     "threat_status": "Threatened – Nationally Increasing (northern subspecies, NZTCS)",
+     "history": "Northern dotterels grew from about 1,000–1,200 birds in the 1960s and 70s to about 2,600 by 2020. Kawau residents count dotterels among the rare ground-nesting birds that have started to thrive on the island.",
+     "behaviour": "Tūturiwhatu nest in a simple scrape in the sand, often marked with driftwood or shells. Get too close and a parent will try to lead you away, faking injury or scuttling off low in a 'rat-run'.",
+     "fun_fact": "Northern birds have lived to 32. Now and then two females pair up and lay a joint clutch of four to six eggs.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/new-zealand-dotterel",
+      "https://www.kawauisland.org/about-1"
+     ],
+     "where": "Found on sandy beaches. Give nesting birds a wide berth and keep dogs under control."
+    },
+    {
+     "slug": "pied-stilt",
+     "name": "Pied stilt",
+     "maori": "poaka",
+     "sci": "Himantopus himantopus leucocephalus",
+     "origin": "native",
+     "threat_status": "Not Threatened (NZTCS)",
+     "history": "Pied stilts are thought to have reached New Zealand only in the early nineteenth century. Numbers grew mainly from about 1870 to 1940, and by the early 1990s there were about 30,000.",
+     "behaviour": "Stilts wade through shallow water and mud on very long pink legs, picking up insects and worms. They are sociable and shy, and usually fly off yapping when approached. They often rest on one leg.",
+     "fun_fact": "Pied stilts interbreed with the critically endangered kakī (black stilt). Birds with odd, mottled black markings are probably hybrids.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/pied-stilt"
+     ],
+     "where": "Found in muddy shallows and along estuary edges at low tide."
+    },
+    {
+     "slug": "reef-heron",
+     "name": "Reef heron",
+     "maori": "matuku moana",
+     "sci": "Egretta sacra",
+     "origin": "native",
+     "threat_status": "Threatened – Nationally Endangered (NZTCS)",
+     "history": "Only 300–500 reef herons live in New Zealand, most often seen on northern North Island coasts. The surveyed populations have been stable for 40 years, yet the species is ranked Nationally Endangered.",
+     "behaviour": "This dark grey heron of the rocky shore stalks rock pools on the falling or low tide, catching small fish, crustaceans and worms. It nests in dark spots near the ground, such as rocky caverns and under old bridges.",
+     "fun_fact": "It sometimes crouches with its wings spread like an umbrella. The patch of shade lures prey within reach of its bill.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/reef-heron"
+     ],
+     "where": "Usually seen alone on rocky points and around rock pools at low tide."
+    },
+    {
+     "slug": "white-faced-heron",
+     "name": "White-faced heron",
+     "maori": "matuku moana",
+     "sci": "Egretta novaehollandiae",
+     "origin": "native",
+     "threat_status": "Not Threatened (NZTCS)",
+     "history": "White-faced herons reached New Zealand on their own and established in the 1940s. Numbers grew rapidly from the 1950s, and they are now New Zealand's most common heron, found almost everywhere.",
+     "behaviour": "It hunts by walking slowly with long, controlled steps, then striking fast. It eats almost anything: fish, crabs, insects, lizards, even small mammals. Pairs nest high in trees, often pines or macrocarpa.",
+     "fun_fact": "It usually lays three to five eggs, but a pair rarely raises more than two chicks from a brood.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/white-faced-heron"
+     ],
+     "where": "Commonly seen on beaches, tidal flats and damp grass, and often lets you get quite close."
+    },
+    {
+     "slug": "spur-winged-plover",
+     "name": "Spur-winged plover",
+     "maori": "",
+     "sci": "Vanellus miles",
+     "origin": "native",
+     "threat_status": "Not Threatened (NZTCS)",
+     "history": "This Australian lapwing first bred near Invercargill in 1932 and had spread to Northland by the 1980s. Protected from 1946, it lost legal protection in 2010 after complaints about crop damage and aircraft strikes.",
+     "behaviour": "Pairs defend their territory fiercely and often mob swamp harriers. Their loud, staccato alarm call is often heard at night. They nest in a bare scrape on open ground between June and November.",
+     "fun_fact": "It is named for the sharp yellow spur on each wing. Along with the black-backed gull, it is one of only two native birds with no legal protection.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/spur-winged-plover",
+      "https://www.legislation.govt.nz/act/public/1953/0031/latest/DLM278571.html"
+     ],
+     "where": "Commonly seen in open paddocks and on lawns, announcing itself with a loud, staccato cry."
+    }
+   ]
+  },
+  {
+   "group": "wetland-ground",
+   "group_title": "Wetland & ground dwellers",
+   "group_intro": "Kawau's most famous birds walk rather than fly. Kiwi and weka share the gullies and bays, while pāteke and other waterbirds use the island's ponds, mangroves and sheltered inlets.",
+   "species": [
+    {
+     "slug": "kiwi",
+     "name": "North Island brown kiwi",
+     "maori": "kiwi-nui",
+     "sci": "Apteryx mantelli",
+     "origin": "endemic",
+     "threat_status": "Not Threatened (Conservation Dependent)",
+     "history": "Kiwi have lived on Kawau for more than 140 years, yet numbers stayed puzzlingly low. Ponui Island, a little smaller, holds 1,500–2,000 kiwi descended from just 14 birds released in 1964.",
+     "behaviour": "Nocturnal and more often heard than seen. Kiwi probe leaf litter and soil with long bills that have the nostrils at the tip, so they smell their prey. Only the male incubates the egg.",
+     "fun_fact": "Kiwi lay one of the largest eggs of any bird relative to body size: about 124 mm long, from a bird weighing only 2–2.7 kg.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/north-island-brown-kiwi",
+      "https://savethekiwi.nz/wp-content/uploads/2026/02/Population-Survey-for-North-Island-Brown-Kiwi-on-Kawau-Island-2025_Final-Report.pdf",
+      "https://pohutukawatrust.co.nz/kiwi-call/",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf"
+     ],
+     "where": "Roosts in shady gullies and forages in the forest after dark. Listen for the males' shrill whistles."
+    },
+    {
+     "slug": "weka",
+     "name": "North Island weka",
+     "maori": "weka",
+     "sci": "Gallirallus australis greyi",
+     "origin": "endemic",
+     "threat_status": "At Risk – Relict",
+     "history": "The 1976 birds were not Kawau's first weka. An earlier introduction died out within 30 years. In 1991, 13 young Kawau weka were caught to help found a captive-breeding programme for the subspecies.",
+     "behaviour": "Bold, curious omnivores that eat fruit, invertebrates, eggs, lizards, small mammals and carrion. Pairs roost together and duet at dawn and dusk. On Kawau they often forage along beaches for small crabs.",
+     "fun_fact": "Weka are flightless but strong swimmers. Translocated birds have crossed more than a kilometre of sea. Droughts hit them hard, and the 1990–91 drought emptied parts of Kawau.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/weka",
+      "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_56_3_124.pdf",
+      "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_47_2_90.pdf",
+      "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_45_1_31.pdf",
+      "https://www.kawauisland.org/nature",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf"
+     ],
+     "where": "Seen almost everywhere: bays, beaches, gardens and the Mansion House lawns."
+    },
+    {
+     "slug": "banded-rail",
+     "name": "Banded rail",
+     "maori": "moho pererū",
+     "sci": "Gallirallus philippensis",
+     "origin": "native",
+     "threat_status": "At Risk – Declining",
+     "history": "Drained wetlands and introduced predators have cut numbers since the 1970s. About 80–90% of New Zealand's banded rails now live around upper North Island estuaries. Spreading mangroves in Auckland have probably helped them.",
+     "behaviour": "Shy and secretive. They seldom stray more than 6 m from cover and feed under mangroves at low tide on crabs, snails, insects and worms. They can fly, but mostly travel at night.",
+     "fun_fact": "The same species, often called buff-banded rail, lives from the Cocos Islands in the Indian Ocean through Indonesia and the Philippines to Australia and Polynesia.",
+     "presence_note": "Scarce and rarely seen; only occasional recent records.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/banded-rail",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.inaturalist.org/observations/344725884",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf"
+     ],
+     "where": "Keeps to mangrove and saltmarsh edges at low tide."
+    },
+    {
+     "slug": "pukeko",
+     "name": "Pūkeko",
+     "maori": "pūkeko",
+     "sci": "Porphyrio melanotus",
+     "origin": "native",
+     "threat_status": "Not Threatened",
+     "history": "Pūkeko belong to a group of swamphens found from the Mediterranean through Africa and Asia to Polynesia. Though reluctant to fly, they can cover long distances and reach offshore islands.",
+     "behaviour": "Loud, territorial and social. Groups defend a shared territory and several females may lay in one nest, with everyone helping raise the chicks. They prefer to run or hide rather than fly.",
+     "fun_fact": "A single shared pūkeko nest can hold up to 18 eggs, and adults have been seen attacking cats and stoats to protect their chicks.",
+     "presence_note": "Uncommon on Kawau; few recent records.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/pukeko",
+      "https://www.inaturalist.org/observations/104535700"
+     ],
+     "where": "Found on damp grassy flats and wetland edges near the shore."
+    },
+    {
+     "slug": "pateke",
+     "name": "Brown teal",
+     "maori": "pāteke",
+     "sci": "Anas chlorotis",
+     "origin": "endemic",
+     "threat_status": "Threatened – Nationally Increasing",
+     "history": "Pāteke reappeared in Kawau's Hokimai Bay in 1992 as possum control took effect. In the Auckland region, Great Barrier numbers are falling but birds are spreading out from Tāwharanui, across the channel from Kawau.",
+     "behaviour": "Small, dark dabbling ducks with a white eye-ring. They are most active at dusk and after dark. Pairs hold year-round territories and gather in flocks in mid-summer.",
+     "fun_fact": "Pāteke gave rise to the flightless Auckland Island and Campbell Island teals. Scientists have recorded 78 different foods in their diet, from marine invertebrates to fungi.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/brown-teal",
+      "https://pohutukawatrust.co.nz/",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.inaturalist.org/observations/144378967",
+      "https://www.inaturalist.org/observations/7457134",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf"
+     ],
+     "where": "Found on the ponds around Mansion House Bay, Hokimai Bay and in the Bon Accord mangroves."
+    },
+    {
+     "slug": "paradise-shelduck",
+     "name": "Paradise shelduck",
+     "maori": "pūtangitangi",
+     "sci": "Tadorna variegata",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "Hunters shoot huge numbers every year, over 200,000 in 2011, yet the population and range have grown remarkably since about 1990. They have even moved onto urban sports fields and parks.",
+     "behaviour": "Pairs stay together all year and defend a territory. They graze mainly on grass and clover. From January to March they gather at big ponds or lakes to moult, and cannot fly until their new feathers grow.",
+     "fun_fact": "The plumage is reversed from most ducks: the female is the showy one, with a bright white head and chestnut body, while the male is dark grey.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/paradise-shelduck",
+      "https://www.inaturalist.org/observations/337879661",
+      "https://www.inaturalist.org/observations/151991090"
+     ],
+     "where": "Commonly seen on the grassy flats and ponds around Mansion House Bay."
+    },
+    {
+     "slug": "grey-duck",
+     "name": "Grey duck",
+     "maori": "pārera",
+     "sci": "Anas superciliosa",
+     "origin": "native",
+     "threat_status": "Threatened – Nationally Vulnerable",
+     "history": "Once New Zealand's common duck, the pārera has been swamped by crossbreeding with introduced mallards. Grey duck–mallard hybrids are now widespread, and pure grey ducks are critically rare.",
+     "behaviour": "Timid and easily spooked. They are usually seen alone or in pairs on quiet, undisturbed water, feeding mostly on plants. They prefer wild places to farmland.",
+     "fun_fact": "Nobody knows how many pure grey ducks are left. The birds are so hard to tell from hybrids that a DNA study is needed to count them.",
+     "presence_note": "Recent Kawau records are grey duck–mallard hybrids; pure birds are unlikely.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/grey-duck",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf",
+      "https://www.inaturalist.org/observations/83117066"
+     ],
+     "where": "Would be found on quiet ponds and in sheltered coves."
+    },
+    {
+     "slug": "nz-pipit",
+     "name": "New Zealand pipit",
+     "maori": "pīhoihoi",
+     "sci": "Anthus novaeseelandiae",
+     "origin": "endemic",
+     "threat_status": "At Risk – Declining",
+     "history": "Pipits did well when forests were cleared, then declined as farming intensified. In the Auckland region they are thinly spread and little studied. They recovered strongly after rats were removed from Campbell Island.",
+     "behaviour": "A streaky brown bird of open ground: beaches, rough pasture and riverbeds. It walks rather than hops and constantly flicks its long tail up and down.",
+     "fun_fact": "Pipits are easily mistaken for introduced skylarks. Skylarks hop, have a small crest and fly off sooner; pipits walk, wag their tails and have no crest.",
+     "presence_note": "Listed on a hobbyist checklist, but no recent Kawau records found.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/new-zealand-pipit",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.nzbirds.com/birding/kawaubirds.html",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf"
+     ],
+     "where": "Would be found in open grassy areas and on sandy beaches."
+    }
+   ]
+  },
+  {
+   "group": "forest",
+   "group_title": "Forest birds",
+   "group_intro": "Kawau lies on a flight path for birds from the Hauturu / Little Barrier sanctuary. Tūī, kererū and kākā are thriving, while some forest species found on nearby sanctuaries have yet to settle here.",
+   "species": [
+    {
+     "slug": "kaka",
+     "name": "Kākā",
+     "maori": "kākā",
+     "sci": "Nestor meridionalis",
+     "origin": "endemic",
+     "threat_status": "At Risk – Recovering",
+     "history": "The Pohutukawa Trust says kākā became a regular sight over Kawau again in the early 2020s, probably flying in from Hauturu / Little Barrier. They are now breeding at Tāwharanui and on Waiheke.",
+     "behaviour": "Noisy, sociable parrots that gather at flowering trees and pōhutukawa blossom. They eat seeds, fruit, nectar, sap and wood-boring grubs, and nest in tree hollows more than 5 m up.",
+     "fun_fact": "Banding and radio-tracking show that kākā on the Hen and Chickens, Little Barrier and Great Barrier act as one population, even with up to 25 km of sea between them.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/kaka",
+      "https://pohutukawatrust.co.nz/kiwi-call/",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.inaturalist.org/observations/326649353",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf"
+     ],
+     "where": "Commonly seen in the canopy and in flowering pōhutukawa, especially at dawn and dusk."
+    },
+    {
+     "slug": "kereru",
+     "name": "New Zealand pigeon",
+     "maori": "kererū",
+     "sci": "Hemiphaga novaeseelandiae",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "The Pohutukawa Trust recorded rising kererū numbers on Kawau in the 1990s as possums were reduced. Today they are the native bird most often recorded on Kawau by iNaturalist users.",
+     "behaviour": "Big, iridescent green pigeons with a white vest. In spring the males perform display flights, climbing steeply, stalling, then gliding down. Their heavy wingbeats make a loud whoosh.",
+     "fun_fact": "Kererū are the main long-distance movers of big seeds such as taraire, karaka, tawa and pūriri. One satellite-tagged bird travelled at least 480 km in 100 days.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/new-zealand-pigeon",
+      "https://pohutukawatrust.co.nz/",
+      "https://www.kawauisland.org/nature",
+      "https://api.inaturalist.org/v1/observations/species_counts?iconic_taxa=Aves&swlat=-36.465&swlng=174.80&nelat=-36.395&nelng=174.885"
+     ],
+     "where": "Commonly seen in fruiting trees island-wide, often perched in the open on treetops."
+    },
+    {
+     "slug": "tui",
+     "name": "Tūī",
+     "maori": "tūī",
+     "sci": "Prosthemadera novaeseelandiae",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "Tūī numbers rose on Kawau as possum control took hold in the 1990s. Today, locals say you can hear them around every bay and cove on the island.",
+     "behaviour": "Aggressive honeyeaters that will defend a flowering tree against every other bird. Their song mixes bell notes with coughs, clicks and wheezes, and they can mimic bellbirds and even phone ringtones.",
+     "fun_fact": "The tūī's loud whirring flight comes from a notch in its eighth primary feather. Some tūī fly more than 10 km a day to reach good nectar.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/tui",
+      "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/tui/",
+      "https://www.kawauisland.org/nature",
+      "https://pohutukawatrust.co.nz/"
+     ],
+     "where": "Commonly seen in every bay, feeding on flax, pōhutukawa and garden flowers."
+    },
+    {
+     "slug": "bellbird",
+     "name": "Bellbird",
+     "maori": "korimako",
+     "sci": "Anthornis melanura",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "Bellbirds vanished from mainland Northland and Auckland in the 1860s, and nobody knows why. Birds from Hauturu recolonised nearby Tāwharanui in 2005, flying about 23 km over the sea to get there.",
+     "behaviour": "Olive-green honeyeaters that feed on nectar and fruit, pollinating flowers and spreading seeds. They defend territories when breeding, then roam 10 km or more to find food.",
+     "fun_fact": "Captain Cook said the bellbird's song sounded 'like small bells exquisitely tuned'. Songs vary so much by place that neighbouring patches of bush can have their own dialects.",
+     "presence_note": "Occasional visitor; no evidence of a resident population.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/bellbird",
+      "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/bellbird-korimako/",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://pohutukawatrust.co.nz/"
+     ],
+     "where": "Most likely in flowering trees on the northern side, facing Tāwharanui."
+    },
+    {
+     "slug": "whitehead",
+     "name": "Whitehead",
+     "maori": "pōpokotea",
+     "sci": "Mohoua albicilla",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "Whiteheads disappeared from the northern North Island and many Hauraki Gulf islands in the late 1800s. Birds from Hauturu have since been moved to Tiritiri Matangi, Motuora, Rangitoto and Tāwharanui, but not to Kawau.",
+     "behaviour": "Noisy flocks of up to eight birds move acrobatically through the canopy, calling constantly. Breeding is cooperative, with helpers assisting the main pair. They are reluctant fliers.",
+     "fun_fact": "Whiteheads are the only North Island host of the long-tailed cuckoo. The cuckoo chick pushes out the whitehead eggs and chicks, keeping the nest to itself.",
+     "presence_note": "On a hobbyist checklist, but no confirmed Kawau records found; likely historical or a rare straggler.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/whitehead",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Not established on Kawau. The nearest flocks are at Tāwharanui."
+    },
+    {
+     "slug": "nz-robin",
+     "name": "North Island robin",
+     "maori": "toutouwai",
+     "sci": "Petroica longipes",
+     "origin": "endemic",
+     "threat_status": "At Risk – Declining",
+     "history": "Toutouwai survive naturally in the central North Island and on Hauturu and Kapiti. The Hauturu population thrived after cats and kiore were removed. Transfers elsewhere in Auckland have had mixed success.",
+     "behaviour": "Tame, long-legged grey birds that feed on the forest floor. Where people are common they will come within a metre, and they sometimes stand on a walker's boot.",
+     "fun_fact": "Robins store food. They tear up large prey, hide the pieces in branches and usually come back for them the same day or the next.",
+     "presence_note": "Not known to be resident. The hobbyist checklist entry is unconfirmed and gives the South Island robin's scientific name.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/north-island-robin",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.nzbirds.com/birding/kawaubirds.html",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf",
+      "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/north-island-robin-toutouwai/"
+     ],
+     "where": "Not established on Kawau. The nearest population is at Tāwharanui."
+    },
+    {
+     "slug": "tomtit",
+     "name": "Tomtit",
+     "maori": "miromiro",
+     "sci": "Petroica macrocephala",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "Auckland's tomtits mainly live on Hauturu and in the Waitākere and Hūnua Ranges. They recolonised Rangitoto on their own, but a transfer to Tiritiri Matangi failed.",
+     "behaviour": "A big-headed little bird that watches from a low perch, then darts out to snatch insects. Males are black and white, females brown and white. Pairs hold their territory all year.",
+     "fun_fact": "In Māori tradition, a miromiro that flew into a house unexpectedly was a messenger of the gods and an omen of misfortune.",
+     "presence_note": "Possible rare visitor only. Tomtits turn up occasionally on Hauraki Gulf islands but are not known to breed there.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/tomtit",
+      "https://www.knowledgeauckland.org.nz/media/zmilqh2l/tr2024-05-conservation-status-of-birds-in-t%C4%81maki-makaurau-auckland.pdf",
+      "https://www.nzbirds.com/birds/miromiro.html"
+     ],
+     "where": "Not established on Kawau, so any sighting is noteworthy."
+    },
+    {
+     "slug": "grey-warbler",
+     "name": "Grey warbler",
+     "maori": "riroriro",
+     "sci": "Gerygone igata",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "Unlike many native birds, riroriro kept almost all their range after people arrived. They live in forest, farmland, gardens and towns, including Kawau's regenerating bush.",
+     "behaviour": "Restless and more often heard than seen. Warblers almost hover at twig tips to pick off insects. They build a hanging, domed nest with a side entrance, usually 2–4 m up in mānuka or kānuka.",
+     "fun_fact": "At 5.5–6.5 g, the riroriro is a contender with the rifleman for New Zealand's smallest bird, yet the male's long trilling song is surprisingly loud.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/grey-warbler",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly heard in scrub and at forest edges island-wide. Listen for the trill."
+    },
+    {
+     "slug": "fantail",
+     "name": "Fantail",
+     "maori": "pīwakawaka",
+     "sci": "Rhipidura fuliginosa",
+     "origin": "endemic",
+     "threat_status": "Not Threatened",
+     "history": "In Māori tradition the fantail brought death into the world. Its laughter woke Hine-nui-te-pō as Māui tried to pass through her body to win immortality, and she killed him.",
+     "behaviour": "Fantails follow walkers closely to snap up the insects they disturb. They flick their wings and fan their tails to flush hidden prey, and often come within a metre or two.",
+     "fun_fact": "Fantails breed at an astonishing rate. One North Island pair raised five broods in a single season, fledging 15 young.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/new-zealand-fantail",
+      "https://teara.govt.nz/en/nga-manu-birds/page-2",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen along track edges and in gardens, and will probably find you first."
+    },
+    {
+     "slug": "silvereye",
+     "name": "Silvereye",
+     "maori": "tauhou",
+     "sci": "Zosterops lateralis",
+     "origin": "native",
+     "threat_status": "Not Threatened",
+     "history": "Silvereyes flew in from Australia on their own in the 1850s and became one of the country's most common birds. Their Māori name, tauhou, means 'stranger'.",
+     "behaviour": "Small, olive-green birds with a white eye-ring. They roam in chattering flocks, especially in winter, eating insects, fruit and nectar. They cross the sea between islands easily and raise up to three clutches a season.",
+     "fun_fact": "Another old name is 'blight-bird', because they eat the aphids, or blight, on plants. In winter they visit garden feeders more often than any other New Zealand bird.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/silvereye",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen in gardens, orchards and at bush edges, often in flocks in winter."
+    }
+   ]
+  },
+  {
+   "group": "hunters-travellers",
+   "group_title": "Hunters & travellers",
+   "group_intro": "Kawau's hunters work in shifts. Ruru take the night, kōtare watch from the jetty poles by day, and kāhu patrol the open ground. Each spring two cuckoos fly in from the tropical Pacific, joining a swallow that only settled New Zealand in the 1950s.",
+   "species": [
+    {
+     "slug": "morepork",
+     "name": "Morepork",
+     "maori": "ruru",
+     "sci": "Ninox novaeseelandiae",
+     "origin": "native",
+     "threat_status": "Not Threatened",
+     "history": "A native owl of forests right across New Zealand, including most wooded offshore islands. On Kawau its call drifts out of the bush as dusk falls, a favourite sound for anyone fishing off a jetty.",
+     "behaviour": "Hunts at night for wētā, moths, huhu beetles and small birds, flying silently on comb-edged feathers. Often waits by outdoor lights to pick off moths. What sounds like a duet is usually two rival males.",
+     "fun_fact": "In 1987 two New Zealand ruru were sent to Norfolk Island as mates for the last surviving Norfolk Island boobook. A hybrid population still lives there.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/morepork",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly heard in the bush around the bays at dusk and after dark."
+    },
+    {
+     "slug": "kingfisher",
+     "name": "Sacred kingfisher",
+     "maori": "kōtare",
+     "sci": "Todiramphus sanctus",
+     "origin": "native",
+     "threat_status": "Not Threatened",
+     "history": "A common native that has done well out of farmland, fences and power lines, which give it plenty of lookouts. On Kawau, kōtare nest in the banks above the rocky shore and hunt from jetty poles.",
+     "behaviour": "Sits hunched on a high perch, then drops to snatch crabs, insects, lizards or small fish. It bashes bigger prey against the perch before swallowing it whole. Nesting pairs dive-bomb intruders with a piercing 'kek-kek-kek'.",
+     "fun_fact": "Kōtare start a nest hole by flying bill-first into a bank, again and again, until they have a foothold. One burrow was reportedly used 20 years running.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/sacred-kingfisher",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen on jetty poles and rocky shores, watching the water."
+    },
+    {
+     "slug": "harrier",
+     "name": "Swamp harrier",
+     "maori": "kāhu",
+     "sci": "Circus approximans",
+     "origin": "native",
+     "threat_status": "Not Threatened",
+     "history": "The largest of the world's 16 harrier species, and a bird that has thrived since forest was cleared for farms. On Kawau it is one of the few predators able to take peafowl eggs and chicks.",
+     "behaviour": "Quarters low over open ground with its wings in a shallow V, dropping feet-first onto rats, mice, rabbits and birds. Road-kill and other carrion are a big part of its diet. Magpies and plovers mob it relentlessly.",
+     "fun_fact": "In spring the male passes food to his mate in mid-air. She flips upside down beneath him and takes it from his talons.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/swamp-harrier",
+      "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Beauchamp_2013_0.pdf",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Usually seen gliding low over open slopes, clearings and the shoreline."
+    },
+    {
+     "slug": "welcome-swallow",
+     "name": "Welcome swallow",
+     "maori": "warou",
+     "sci": "Hirundo neoxena",
+     "origin": "native",
+     "threat_status": "Not Threatened",
+     "history": "A native that let itself in. Welcome swallows were rare vagrants from Australia until they first bred at Awanui, Northland, in 1958. By 1965 they were common through Northland and breeding in the South Island.",
+     "behaviour": "Hunts insects in fast, looping flight low over water, and drinks on the wing by skimming the surface. Builds a mud cup nest under cover on buildings, bridges and boats, and can raise three broods a season.",
+     "fun_fact": "Their arrival produced what may be the best title in New Zealand birding: Barrie Heather's 1956 note 'Welcome swallow at Farewell Spit'.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/welcome-swallow",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Commonly seen over the bays and moorings, and nesting in boats that rarely leave them."
+    },
+    {
+     "slug": "shining-cuckoo",
+     "name": "Shining cuckoo",
+     "maori": "pīpīwharauroa",
+     "sci": "Chrysococcyx lucidus",
+     "origin": "migrant",
+     "threat_status": "Not Threatened",
+     "history": "A summer migrant that spends the winter in the Solomon Islands and the Bismarck Archipelago off New Guinea. The New Zealand subspecies breeds only here, arriving in September or October.",
+     "behaviour": "Lays single eggs in grey warbler nests, mostly in November, and leaves the warblers to raise the chick. Small and green, it hides in foliage and is heard far more than seen: a string of rising whistles.",
+     "fun_fact": "It eats hairy caterpillars that most birds avoid, and is one of the few New Zealand birds known to eat monarch butterfly caterpillars.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/shining-cuckoo",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Found wherever grey warblers breed. Follow the whistles from September."
+    },
+    {
+     "slug": "long-tailed-cuckoo",
+     "name": "Long-tailed cuckoo",
+     "maori": "koekoeā",
+     "sci": "Urodynamis taitensis",
+     "origin": "migrant",
+     "threat_status": "Threatened – Nationally Vulnerable",
+     "history": "It breeds only in New Zealand but winters across an 11,000 km arc of Pacific islands, from Palau to the Pitcairn group. It is now threatened, partly because yellowheads, one of its host species, have declined.",
+     "behaviour": "A hawk-like cuckoo with a tail as long as its body, often mobbed by small birds. It lays in whitehead, brown creeper and yellowhead nests, and eats cicadas, wētā, lizards and other birds' nestlings.",
+     "fun_fact": "Young cuckoos leave for the tropics in April and May, months after the adults have gone. They make their first ocean crossing without their parents.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/long-tailed-cuckoo",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Mostly passing through. Listen for harsh screeches, even at night."
+    }
+   ]
+  },
+  {
+   "group": "introduced",
+   "group_title": "Introduced birds",
+   "group_intro": "Grey brought kookaburras and peafowl to Kawau, and magpies were released here too. Meanwhile acclimatisation societies were filling the mainland with birds settlers remembered from home, or hoped would eat farm pests. Nearly all of them are on the island's list today.",
+   "species": [
+    {
+     "slug": "kookaburra",
+     "name": "Laughing kookaburra",
+     "maori": "",
+     "sci": "Dacelo novaeguineae",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Grey released kookaburras on Kawau in 1866. Releases in Wellington, Nelson and Otago all failed, so New Zealand's wild kookaburras come from this island's birds.",
+     "behaviour": "Lives in family groups that roost together in a tall tree and defend a territory. A perch-and-pounce hunter, it waits motionless, drops onto a lizard, mouse or insect, then beats it against a branch and swallows it whole.",
+     "fun_fact": "In Australia snakes and reptiles make up about a third of its diet. New Zealand has no snakes, which may help explain why it has never spread far.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/laughing-kookaburra",
+      "https://teara.govt.nz/en/introduced-land-birds/page-5",
+      "https://www.kawauisland.org/nature"
+     ],
+     "where": "Usually perched in tall trees at bush edges, and loudest at dawn and dusk."
+    },
+    {
+     "slug": "peafowl",
+     "name": "Indian peafowl",
+     "maori": "pīkao",
+     "sci": "Pavo cristatus",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Grey's peafowl had died out by 1923. Today's birds descend from about 20 released between 1958 and 1979, plus two from Motukiore Island around 1989.",
+     "behaviour": "Peafowl fly up to roost about 12 minutes after sunset and come down after dawn. In the display season each peacock keeps his own patch around Mansion House, out of sight of his rivals but within earshot.",
+     "fun_fact": "A Kawau peachick was once seen climbing to its roost using its feet and the claws on its wings, with its mother following it up.",
+     "sources": [
+      "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Beauchamp_2013_0.pdf",
+      "https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Beauchamp_2014.pdf",
+      "https://www.nzbirdsonline.org.nz/species/peafowl",
+      "https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/kawau-island-historic-reserve/mansion-house/history-of-mansion-house/"
+     ],
+     "where": "Commonly seen on the lawns, orchard and courtyards around Mansion House."
+    },
+    {
+     "slug": "brown-quail",
+     "name": "Brown quail",
+     "maori": "kuera",
+     "sci": "Synoicus ypsilophorus",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Brought from Australia and released around Auckland, Wellington, Otago and Southland in 1866–80. It now survives only in the northern North Island and on its islands. These releases may have brought diseases that helped wipe out New Zealand's own quail.",
+     "behaviour": "A shy, well-camouflaged bird of scrub and rough grass. Family groups called coveys keep in touch with shrill, piercing calls. Brown quail often dust-bathe in sunny open patches at the edge of scrub.",
+     "fun_fact": "No one has recorded releasing brown quail on any offshore island, so the island populations probably flew there themselves.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/brown-quail",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Found along scrubby track edges and in rough grass. Listen for a rising 'ker-wee'."
+    },
+    {
+     "slug": "mallard",
+     "name": "Mallard",
+     "maori": "rakiraki",
+     "sci": "Anas platyrhynchos",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Imported from English game farms from 1870, and later from Connecticut. Acclimatisation societies released over 30,000 until 1974. Mallards then hybridised with the native grey duck and have replaced it on most wetlands.",
+     "behaviour": "Dabbles and grazes on seeds, grasses and water plants, plus insects and snails. Pairs form each season, but the drake leaves all the incubating and duckling care to the female.",
+     "fun_fact": "Some New Zealand mallards have crossed the Tasman. Birds from Otago and Waikato have turned up in Adelaide, Lord Howe Island, New Caledonia and Vanuatu.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/mallard",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen on ponds, dams and sheltered bays, though many are grey duck hybrids."
+    },
+    {
+     "slug": "magpie",
+     "name": "Australian magpie",
+     "maori": "makipai",
+     "sci": "Gymnorhina tibicen",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Magpies from Victoria and Tasmania were released in the 1860s and 1870s in Canterbury, Otago, Hawke's Bay, Wellington and on Kawau. They were brought to eat pasture pests and stayed legally protected until 1951.",
+     "behaviour": "Pairs and family groups hold territory all year, carolling 'quardle oodle ardle wardle doodle'. They dive-bomb people near nests in spring and chase off harriers. Young magpies play by rolling on their backs, like kea.",
+     "fun_fact": "Magpies sometimes peck at power-line fittings and electrocute themselves. Some have been blamed for starting fires by falling, alight, into dry grass.",
+     "sources": [
+      "https://teara.govt.nz/en/introduced-land-birds/page-6",
+      "https://www.nzbirdsonline.org.nz/species/australian-magpie",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen on open ground and in clearings with tall trees nearby."
+    },
+    {
+     "slug": "myna",
+     "name": "Common myna",
+     "maori": "maina",
+     "sci": "Acridotheres tristis",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "A tropical bird from South Asia, released in the 1870s to eat insect pests. The southern birds died out, but northern ones spread, reaching Auckland around 1947. It is now one of the north's most conspicuous birds.",
+     "behaviour": "Pairs mate for life and defend their nest site fiercely, destroying the eggs and chicks of other birds nearby. Mynas can evict kōtare from nest holes. At dusk they gather in noisy communal roosts.",
+     "fun_fact": "South of 40°S, mynas hung on around piggeries. When dairy farms switched from butterfat to whole-milk supply, the piggeries closed and the mynas died out.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/common-myna",
+      "https://teara.govt.nz/en/introduced-land-birds/page-9",
+      "https://www.nzbirdsonline.org.nz/species/sacred-kingfisher",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen along roadsides, on lawns and in clearings near houses."
+    },
+    {
+     "slug": "starling",
+     "name": "Common starling",
+     "maori": "tāringi",
+     "sci": "Sturnus vulgaris",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Introduced from 1862 to fight caterpillar plagues, with about 1,000 birds released by the 1880s. They took off. Four birds released in Napier had become 'hundreds of thousands' within 11 years.",
+     "behaviour": "Probes pasture with its bill shut, then opens it to look into the hole. Feeds and roosts in flocks, and flies up to 30 km to its roost at dusk. It competes with tūī and bellbirds for flax nectar.",
+     "fun_fact": "Starlings mimic sirens, phones and voices uncannily well. In New Zealand they also dig nest holes in clay banks, which has not been recorded anywhere else.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/common-starling",
+      "https://teara.govt.nz/en/introduced-land-birds/page-9",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen in paddocks, on rooftops and along the shore, flocking to roost in the evening."
+    },
+    {
+     "slug": "blackbird",
+     "name": "Eurasian blackbird",
+     "maori": "manu pango",
+     "sci": "Turdus merula",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Released from the 1860s because English settlers missed its song. It spread so well that it was the most widely recorded bird in the 1999–2004 national bird atlas.",
+     "behaviour": "Runs across lawns and leaf litter, pausing to 'listen' for worms. Males sing from high perches, mostly at dawn and dusk from July to January, and chase off rivals, even tūī.",
+     "fun_fact": "Territorial males attack their own reflections. For several springs, one Wellington household found its front-door glass smeared with blood and wing prints.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/eurasian-blackbird",
+      "https://teara.govt.nz/en/introduced-land-birds/page-8",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen in gardens, at bush edges and in the leaf litter under trees."
+    },
+    {
+     "slug": "song-thrush",
+     "name": "Song thrush",
+     "maori": "manu-kai-hua-rakau",
+     "sci": "Turdus philomelos",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Brought from England for sentimental reasons and released widely from 1867. Orchardists soon regretted it. It is still common, though blackbirds outnumber it about ten to one in most habitats.",
+     "behaviour": "Sings from treetops, mainly from May to November, and repeats each phrase two or three times. Feeds on the ground on worms and snails, and smashes snail shells against a stone with a flick of its head.",
+     "fun_fact": "Song thrushes use a rock to break open native land snails and even marine snails, as well as the garden kind.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/song-thrush",
+      "https://teara.govt.nz/en/introduced-land-birds/page-8",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Found in gardens, at bush edges and along tracks, repeating each phrase as it sings."
+    },
+    {
+     "slug": "skylark",
+     "name": "Eurasian skylark",
+     "maori": "kairaka",
+     "sci": "Alauda arvensis",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "British settlers loved the skylark, and more than 1,000 were released between 1864 and 1879. By the early 1900s, farmers ranked it second only to sparrows for crop damage.",
+     "behaviour": "Males climb steeply as they sing, to 30–100 m, then hover and sing for three to five minutes before parachuting down, still singing. Nests in a grass-lined cup on the ground.",
+     "fun_fact": "New Zealand exported skylarks too. Birds from here were released in Hawaiʻi in 1870, adding to a population brought from England five years earlier.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/eurasian-skylark",
+      "https://teara.govt.nz/en/introduced-land-birds/page-10",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Found on open grassy ground, singing high overhead in spring."
+    },
+    {
+     "slug": "chaffinch",
+     "name": "Chaffinch",
+     "maori": "pahirini",
+     "sci": "Fringilla coelebs",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Released by acclimatisation societies from 1862. It was slow to establish, but is now New Zealand's commonest and most widespread introduced finch, and has reached many offshore islands by itself.",
+     "behaviour": "Eats seeds on the ground and in trees, and catches insects in foliage or on the wing. In autumn it joins mixed flocks, sometimes with fantails and silvereyes in native forest.",
+     "fun_fact": "Chaffinches have regional accents. North Island birds call 'chink chink', like British ones, while South Island birds say 'chek chek'.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/chaffinch",
+      "https://teara.govt.nz/en/introduced-land-birds/page-12",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen at bush edges, in gardens and in clearings."
+    },
+    {
+     "slug": "goldfinch",
+     "name": "European goldfinch",
+     "maori": "kōurarini",
+     "sci": "Carduelis carduelis",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "About 500 were released between 1862 and 1883. It is the best liked of the small introduced birds, because it eats the seeds of weeds such as thistles rather than crops.",
+     "behaviour": "An acrobatic feeder that hangs upside down from seed heads and flutters from plant to plant. Flocks move in bouncy, undulating flight with tinkling calls. Goldfinches rarely visit bird tables.",
+     "fun_fact": "A flock of goldfinches is called a 'charm'. A record flock of about 15,000 has been seen.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/european-goldfinch",
+      "https://teara.govt.nz/en/introduced-land-birds/page-12",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen in weedy clearings, on thistles and along open edges."
+    },
+    {
+     "slug": "greenfinch",
+     "name": "European greenfinch",
+     "maori": "",
+     "sci": "Chloris chloris",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Released in Nelson, Canterbury, Auckland and Otago from the early 1860s. It multiplied so fast that it was called the 'farmer's greatest enemy when grain is ripening'. Numbers fell as pasture replaced grain.",
+     "behaviour": "The stockiest introduced finch, with a heavy bill that cracks bigger seeds than other finches can. Winter flocks often mix with other finches, and one was estimated at 10,000 birds.",
+     "fun_fact": "One greenfinch was seen taking bees straight from a hive.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/european-greenfinch",
+      "https://teara.govt.nz/en/introduced-land-birds/page-12",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Found in pines, gardens and along bush edges."
+    },
+    {
+     "slug": "yellowhammer",
+     "name": "Yellowhammer",
+     "maori": "hurukōwhai",
+     "sci": "Emberiza citrinella",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Released from Britain by acclimatisation societies between 1865 and 1879. It ate so much freshly sown grass seed and grain that a bounty was put on the birds and their eggs.",
+     "behaviour": "Spends most of its time on the ground, eating grass seeds and insects. Outside the breeding season it can gather in flocks of more than a thousand, often mixed with finches and sparrows.",
+     "fun_fact": "The male's song is traditionally written as 'a little bit of bread and no cheese'.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/yellowhammer",
+      "https://teara.govt.nz/en/introduced-land-birds/page-13",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Found on open grassy ground and track edges, with males singing from treetops."
+    },
+    {
+     "slug": "dunnock",
+     "name": "Dunnock",
+     "maori": "",
+     "sci": "Prunella modularis",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Several hundred were released from 1867, partly in the hope that they would eat orchard insects. Dunnocks are common in the south but scarce from Waikato northwards and rare in Auckland.",
+     "behaviour": "A quiet, sparrow-like bird with a fine bill. It shuffles about under shrubs picking up insects and spiders, and its thin 'tseep' call is easy to overlook.",
+     "fun_fact": "A female dunnock may pair with two or three males at once. In these groups, about 45% of chicks are fathered by the junior male.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/dunnock",
+      "https://teara.govt.nz/en/introduced-land-birds/page-13",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Scarce this far north, but look in dense shrubs and along garden edges."
+    },
+    {
+     "slug": "house-sparrow",
+     "name": "House sparrow",
+     "maori": "tiu",
+     "sci": "Passer domesticus",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "As few as 100 were released in 1866–71 to eat insect pests. By the 1880s they were pests themselves, and sparrow clubs were offering bounties on their eggs.",
+     "behaviour": "Almost always lives near people, eating grain, seeds and scraps. Very sociable, it roosts in groups of hundreds, but it stays close to home. Even big late-summer flocks rarely wander more than a few kilometres.",
+     "fun_fact": "When sparrows became a pest, the Canterbury Acclimatisation Society blamed a ship's captain for releasing them by mistake, even though it had released 40 itself in 1867.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/house-sparrow",
+      "https://teara.govt.nz/en/introduced-land-birds/page-11",
+      "https://www.nzbirds.com/birding/kawaubirds.html"
+     ],
+     "where": "Commonly seen around houses, on wharves and anywhere people eat outdoors."
+    }
+   ]
+  }
+ ]
+}
