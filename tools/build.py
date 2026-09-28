@@ -121,20 +121,9 @@ sources = f'''<!-- SOURCES START -->
 <section id="sources" style="border-bottom:0">
   <div class="wrap">
     <div class="eyebrow">Sources</div>
-    <h2 style="font-size:32px">Further reading</h2>
+    <h2 style="font-size:32px">Sources &amp; credits</h2>
     <ul class="sources">
-      <li>Joustra, T. &amp; Donovan, T. (2025). <a href="https://savethekiwi.nz/wp-content/uploads/2026/02/Population-Survey-for-North-Island-Brown-Kiwi-on-Kawau-Island-2025_Final-Report.pdf">Population Survey for North Island Brown Kiwi on Kawau Island</a>. Save the Kiwi.</li>
-      <li>Beauchamp, A.J. (2013). <a href="https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Beauchamp_2013_0.pdf">Breeding and behaviour records of peafowl at Mansion House Historic Reserve, Kawau Island</a>. <em>Notornis</em> 60(3).</li>
-      <li>Department of Conservation. <a href="https://www.doc.govt.nz/globalassets/documents/science-and-technical/tsrp29.pdf">Weka recovery plan (TSRP 29)</a>.</li>
-      <li>Department of Conservation. <a href="https://www.doc.govt.nz/get-involved/run-a-project/translocation/translocation-success/north-island-weka/">North Island weka: understanding translocation success</a>.</li>
-      <li>New Zealand Birds Online. <a href="https://www.nzbirdsonline.org.nz/species/laughing-kookaburra">Laughing kookaburra</a>.</li>
-      <li>Te Ara. <a href="https://teara.govt.nz/en/introduced-land-birds/page-5">Introduced land birds: kookaburras</a>.</li>
-      <li>Tiaki Tāmaki Makaurau. <a href="https://www.tiakitamakimakaurau.nz/get-involved/working-towards-a-pest-free-kawau-island/pest-free-kawau-island-programme/">Pest free Kawau Island programme</a> and December 2025 newsletter.</li>
-      <li>OurAuckland. <a href="https://ourauckland.aucklandcouncil.govt.nz/news/2026/03/pest-eradication-on-kawau-island-resumes/">Pest eradication on Kawau Island resumes</a> (March 2026).</li>
-      <li>DOC. <a href="https://www.doc.govt.nz/parks-and-recreation/places-to-go/auckland/places/kawau-island-historic-reserve/mansion-house/history-of-mansion-house/">History of Mansion House</a>.</li>
-      <li><a href="https://www.kawauisland.org/nature">Kawau Island community: Island nature</a>.</li>
-      <li><a href="https://www.nzbirds.com/birding/kawaubirds.html">NZ Birds: Kawau Island birds</a>.</li>
-      <li><a href="https://en.wikipedia.org/wiki/Kawau_Island">Wikipedia: Kawau Island</a>.</li>
+      <li>Background reading on the island and its history is on the <a href="history/#sources">History</a> page.</li>
       <li>Map elevation: <a href="https://registry.opendata.aws/copernicus-dem/">Copernicus GLO-30 DEM</a> © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018, provided under COPERNICUS by the European Union and ESA, via AWS Open Data. Contours at 20&nbsp;m derived for this page.</li>
     </ul>
     <details class="more">
@@ -186,28 +175,14 @@ css = '''  /* ---------- field guide ---------- */
 
 # ---------- apply ----------
 s = open(PAGE).read()
-if "<!-- FIELD GUIDE START -->" in s:
-    s = re.sub(r"<!-- FIELD GUIDE START -->.*?<!-- FIELD GUIDE END -->", lambda m: guide, s, flags=re.S)
-else:
-    s, n = re.subn(r"<!-- =+ CHECKLIST =+ -->\n<section id=\"checklist\">.*?</section>", lambda m: guide, s, flags=re.S)
-    assert n == 1, "checklist not found"
-if "<!-- SOURCES START -->" in s:
-    s = re.sub(r"<!-- SOURCES START -->.*?<!-- SOURCES END -->", lambda m: sources, s, flags=re.S)
-else:
-    s, n = re.subn(r"\n\n<footer>", lambda m: "\n\n" + sources + "\n\n</main>\n\n<footer>", s)
-    assert n == 1
-if "/* ---------- field guide ---------- */" in s:
-    s = re.sub(r"  /\* -+ field guide -+ \*/\n.*?(?=  /\* -+ pest free)", lambda m: css, s, flags=re.S)
-else:
-    s, n = re.subn(r"  /\* -+ checklist -+ \*/\n.*?(?=  /\* -+ pest free)", lambda m: css, s, flags=re.S)
-    assert n == 1
-s = s.replace('<a class="l" href="#checklist">Checklist</a>', '<a class="l" href="#guide">Field guide</a>')
-if '    .species { grid-template-columns: 1fr; }' not in s:
-    s = s.replace("    .story, .pf, .bird.wide .cols { grid-template-columns: 1fr; gap: 32px; }\n",
-                  "    .story, .pf, .bird.wide .cols { grid-template-columns: 1fr; gap: 32px; }\n    .species { grid-template-columns: 1fr; }\n", 1)
-if '.sp-grid { grid-template-columns: 1fr; }' not in s:
-    s = s.replace("    .bird svg.sil { width: 48px; height: 48px; }\n",
-                  "    .bird svg.sil { width: 48px; height: 48px; }\n    .sp-grid { grid-template-columns: 1fr; }\n", 1)
+s = re.sub(r"<!-- FIELD GUIDE START -->.*?<!-- FIELD GUIDE END -->", lambda m: guide, s, flags=re.S)
+s = re.sub(r"<!-- SOURCES START -->.*?<!-- SOURCES END -->", lambda m: sources, s, flags=re.S)
 open(PAGE, "w").write(s)
+
+CSS = os.path.join(REPO, "assets", "site.css")
+c = open(CSS).read()
+c, n = re.subn(r"  /\* -+ field guide -+ \*/\n.*?(?=  /\* -+ pest free)", lambda m: css, c, flags=re.S)
+assert n == 1
+open(CSS, "w").write(c)
 have = [sp["slug"] for g in ORDER for sp in groups[g]["species"] if image_for(sp["slug"])]
 print(f"{count} cards, {len(have)} with images")
