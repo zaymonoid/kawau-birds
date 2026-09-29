@@ -7,7 +7,7 @@ import sharp from "sharp";
 const ROOT = process.cwd();
 const IMAGE_DIR = path.join(ROOT, "public", "images", "birds");
 
-export const ORDER = ["seabirds", "shore", "wetland-ground", "forest", "hunters-travellers", "introduced"] as const;
+export const ORDER = ["wetland-ground", "seabirds", "shore", "forest", "hunters-travellers", "introduced"] as const;
 
 // birds with a longer story on the History page (/history#story-<id>)
 export const STORIES: Record<string, string> = {
