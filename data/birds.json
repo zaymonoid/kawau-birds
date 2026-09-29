@@ -40,6 +40,22 @@
      "where": "Commonly seen offshore and on the boat trip over, diving wherever fish are feeding."
     },
     {
+     "slug": "fluttering-shearwater",
+     "name": "Fluttering shearwater",
+     "maori": "pakahā",
+     "sci": "Puffinus gavia",
+     "origin": "endemic",
+     "threat_status": "At Risk – Relict (NZTCS)",
+     "history": "Found only in New Zealand, this is one of the most familiar seabirds of the northern inshore waters, often in flocks of thousands. It now breeds only on predator-free islands, including the Mokohinau Islands, and has returned to Hauturu/Little Barrier on its own since rats were removed.",
+     "behaviour": "Pakahā fly low and fast, with bursts of rapid wingbeats between short glides. They dive after small fish, swimming underwater on half-folded wings, and often feed alongside schools of kahawai and trevally. Between feeds they rest together in large, dense rafts.",
+     "fun_fact": "Many young birds cross the Tasman and spend February to August off eastern Australia. Adults usually keep the same mate and burrow year after year, but may not start breeding until they're 4–10 years old.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/fluttering-shearwater",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Often seen in low, fast-flying flocks or resting rafts on the water around the island, especially in summer and autumn."
+    },
+    {
      "slug": "pied-shag",
      "name": "Pied shag",
      "maori": "kāruhiruhi",
@@ -85,6 +101,40 @@
       "https://www.nzbirdsonline.org.nz/species/little-shag"
      ],
      "where": "Commonly seen around the harbour edges, perched on rocks or branches over the water."
+    },
+    {
+     "slug": "red-billed-gull",
+     "name": "Red-billed gull",
+     "maori": "tarāpunga",
+     "sci": "Chroicocephalus novaehollandiae",
+     "origin": "native",
+     "threat_status": "At Risk – Declining (NZTCS)",
+     "history": "Tarāpunga live on almost every New Zealand coast and are at home in towns, yet numbers have fallen sharply at their three main breeding colonies, one of them on the Mokohinau Islands in the outer Hauraki Gulf. Introduced predators and swings in the supply of krill are the main threats.",
+     "behaviour": "At breeding colonies they rely on surface swarms of krill to raise their chicks. The rest of the year they'll eat almost anything, from small shoreline creatures to scraps in town, and they follow boats hoping for fish offal thrown over the side.",
+     "fun_fact": "Young birds have dark brown eyes, bills and legs; the scarlet bill and legs and pale eye come with adulthood. Most pairs stay together from one season to the next, one Kaikōura pair for 17 years, and birds can live to 30.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/red-billed-gull",
+      "https://www.kawauisland.org/nature",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Often seen around Mansion House and its grounds, and along the shore at Vivian Bay and North Cove."
+    },
+    {
+     "slug": "black-backed-gull",
+     "name": "Southern black-backed gull",
+     "maori": "karoro",
+     "sci": "Larus dominicanus",
+     "origin": "native",
+     "threat_status": "Not Threatened (NZTCS)",
+     "history": "This is the only large gull in New Zealand and one of our most abundant birds, with hundreds of colonies around the country. Numbers have boomed on scraps from landfills, farms and fishing, and it's one of only two native birds given no protection under the Wildlife Act.",
+     "behaviour": "Karoro are both hunters and scavengers, taking fish, invertebrates, and other birds' eggs and chicks, and picking over whatever washes up on the tide. Flocks follow inshore fishing boats for offal, and nesting pairs see off intruders with loud 'ee-ah-ha-ha-ha' calls.",
+     "fun_fact": "The mottled brown youngsters, once called 'mollyhawks', are the same species as the crisp black-and-white adults. They take three years to reach adult plumage, and karoro can live to 28.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/southern-black-backed-gull",
+      "https://www.kawauisland.org/nature",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Seen all year around the bays, from Mansion House to Vivian Bay and North Cove, and quick to trail boats when fish are being cleaned."
     },
     {
      "slug": "caspian-tern",
@@ -753,6 +803,41 @@
       "https://www.nzbirds.com/birding/kawaubirds.html"
      ],
      "where": "Commonly seen on open ground and in clearings with tall trees nearby."
+    },
+    {
+     "slug": "eastern-rosella",
+     "name": "Eastern rosella",
+     "maori": "kākā uhi whero",
+     "sci": "Platycercus eximius",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "Eastern rosellas come from south-eastern Australia. Escaped cage birds and deliberate releases had them living wild around Auckland before 1920, and by the mid-1940s they had spread north to Warkworth and Leigh. They have since reached most of the inner Hauraki Gulf islands, Kawau among them. Auckland Council is working to keep them off Aotea/Great Barrier.",
+     "behaviour": "Rosellas feed in trees and on the ground, mostly on seeds, along with fruit, nectar, buds and insects. In New Zealand they eat flax, tōtara and pōhutukawa seed and drink pūriri nectar. Pairs stay together for several seasons and nest in tree holes, laying 4–7 eggs from October.",
+     "fun_fact": "Its contact call is an unparrot-like 'pee-ping' that sounds a bit like a bellbird. North Island rosellas carry beak and feather disease virus, which could harm native parrots such as kākā.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/eastern-rosella",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/dsis18.pdf",
+      "https://www.tiakitamakimakaurau.nz/protect-and-restore-our-environment/pests-in-auckland/pest-search/plaexi/",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Most often seen on the lawns and in the trees around Mansion House, but turns up in bays and along tracks all over the island. Listen for a metallic 'pink pink pink' as a pair flies off."
+    },
+    {
+     "slug": "spotted-dove",
+     "name": "Spotted dove",
+     "maori": "",
+     "sci": "Streptopelia chinensis",
+     "origin": "introduced",
+     "threat_status": "Introduced and Naturalised",
+     "history": "A dove of south and south-east Asia, first released from captivity in Mt Eden, Auckland, in the 1920s. From the 1950s to the mid-1980s its range around Auckland spread outward by just under 2 km a year. It now lives from Whangārei to Rotorua, mainly in parks and gardens.",
+     "behaviour": "Usually seen in pairs or small groups, feeding on fallen seeds on the ground or perched in trees and on wires. In display, a male flies steeply up 20–30 m, then glides down on stiffly spread wings and tail. Pairs build a flimsy twig platform in a tree and raise several broods a year.",
+     "fun_fact": "Its song is a deep, lilting 'coo corrr cuk', repeated over and over for minutes at a time. Spotted doves can also interbreed with both rock pigeons and Barbary doves.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/spotted-dove",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Most often seen on the lawns and gardens around Mansion House, with occasional birds along the Puriri Track and near homes around the island.",
+     "presence_note": "Uncommon on Kawau."
     },
     {
      "slug": "myna",
