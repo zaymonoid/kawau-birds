@@ -44,12 +44,6 @@ export default function Home() {
             nineteenth-century governor wanted his own Eden.
           </p>
           <Link className="hero-more" href="/history">Learn about Kawau's natural history →</Link>
-          <div className="facts">
-            <div><b>~2,000 ha</b><span>about 8 × 5 km, bisected by Bon Accord Harbour</span></div>
-            <div><b>50+</b><span>bird species recorded through the year</span></div>
-            <div><b>1862</b><span>the year Sir George Grey bought the island</span></div>
-            <div><b>&lt;500</b><span>kookaburras in all of NZ, and every one descends from Kawau's</span></div>
-          </div>
         </div>
       </header>
 
