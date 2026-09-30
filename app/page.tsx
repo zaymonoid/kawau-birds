@@ -44,6 +44,9 @@ export default function Home() {
             nineteenth-century governor wanted his own Eden.
           </p>
           <Link className="hero-more" href="/history">Learn about Kawau's natural history →</Link>
+          <a className="hero-cue" href="#guide">
+            Explore the field guide <span aria-hidden="true">↓</span>
+          </a>
         </div>
       </header>
 

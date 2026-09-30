@@ -93,12 +93,21 @@
   /* the map's labels name the fonts in SVG attributes; point them at the next/font families */
   header.hero .contours .lbl { font-family: var(--font-newsreader), Georgia, serif; }
   header.hero .contours .lbl text[font-family^="IBM Plex Mono"] { font-family: var(--font-plex-mono), monospace; }
-  header.hero .wrap { position: relative; padding-top: 96px; padding-bottom: 88px; }
+  header.hero .wrap { position: relative; padding-top: 96px; padding-bottom: 40px; }
   header.hero h1 { font-size: clamp(48px, 9vw, 112px); font-weight: 400; letter-spacing: -0.03em; margin-top: 18px; }
   header.hero h1 em { color: var(--bush); }
   header.hero .reo { font-family: var(--font-newsreader), serif; font-style: italic; font-size: clamp(20px, 2.6vw, 28px); color: var(--ink-soft); margin-top: 14px; }
   header.hero .lede { font-size: 19px; max-width: 620px; margin-top: 32px; }
   header.hero .hero-more { display: inline-block; margin-top: 8px; font-size: 17px; font-weight: 500; }
+  /* centred nudge towards the field guide; fades out over the first 240px of scroll where supported */
+  header.hero .hero-cue { display: flex; width: fit-content; gap: 10px; align-items: center; margin: 64px auto 0; padding: 10px 20px; border: 1px solid var(--rule); border-radius: 999px; background: var(--card); color: var(--ink); text-decoration: none; font-size: 15px; font-weight: 500; box-shadow: var(--shadow); }
+  header.hero .hero-cue:hover { border-color: var(--pohutukawa); color: var(--pohutukawa); }
+  header.hero .hero-cue span { display: inline-block; animation: 2.4s ease-in-out infinite hero-cue-bob; }
+  @keyframes hero-cue-bob { 0%, 60%, 100% { transform: none; } 30% { transform: translateY(3px); } }
+  @supports (animation-timeline: scroll()) {
+    header.hero .hero-cue { animation: linear both hero-cue-out; animation-timeline: scroll(root); animation-range: 0 240px; }
+  }
+  @keyframes hero-cue-out { to { opacity: 0; visibility: hidden; } }
 
   section { padding: 96px 0; border-bottom: 1px solid var(--rule); }
   section h2 { font-size: clamp(34px, 5vw, 54px); margin-top: 12px; }
@@ -308,4 +317,5 @@
   @keyframes page-fade-in { from { opacity: 0; } }
   @media (prefers-reduced-motion: reduce) {
     .page-fade { animation: none; }
+    header.hero .hero-cue span { animation: none; }
   }
