@@ -17,7 +17,7 @@ plain static export.
 
 ## Content
 
-- `data/birds.json`: the six habitat groups and 58 species.
+- `data/birds.json`: the six habitat groups and 63 species.
 - `data/credits.json`, `data/credits-2.json`: photo credits, alt text and crop focal points.
-- `public/images/birds/`: the photos. All are public domain or CC0; the author and licence of each are in the credits files and on the site.
+- `public/images/birds/`: the photos. All are public domain or CC0, from Wikimedia Commons or iNaturalist; the author and licence of each are in the credits files and on the site.
 - `lib/birds.ts`: reads the data at build time.

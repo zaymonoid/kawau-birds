@@ -56,6 +56,92 @@
      "where": "Often seen in low, fast-flying flocks or resting rafts on the water around the island, especially in summer and autumn."
     },
     {
+     "slug": "bullers-shearwater",
+     "name": "Buller's shearwater",
+     "maori": "rako",
+     "sci": "Ardenna bulleri",
+     "origin": "endemic",
+     "threat_status": "At Risk – Declining (NZTCS)",
+     "history": "Rako breed in only one place in the world, the Poor Knights Islands off Tutukaka. Pigs had nearly wiped out the colony on Aorangi Island, but after they were removed in 1936 the birds came back in huge numbers, with an estimated 200,000 pairs by 1981. A recent survey of the whole island group found only about 79,000 active burrows. The islands are still predator-free, so the fall is thought to come from changes at sea.",
+     "behaviour": "Rako glide and bank low over the water on long, broad wings, flapping far less than the smaller pakahā. They feed in flocks over shoals of fish, snatching small fish and krill that bigger fish have driven to the surface.",
+     "fun_fact": "The dark 'M' across the grey upper wings makes rako one of the easiest shearwaters to identify. After breeding they cross the equator to moult in the North Pacific east of Japan, before flying home in spring.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/bullers-shearwater",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Seen offshore from October to May, most often from November to February, gliding low over the water or feeding with other seabirds over fish shoals."
+    },
+    {
+     "slug": "flesh-footed-shearwater",
+     "name": "Flesh-footed shearwater",
+     "maori": "toanui",
+     "sci": "Ardenna carneipes",
+     "origin": "native",
+     "threat_status": "At Risk – Relict (NZTCS)",
+     "history": "Fewer than 12,000 pairs breed in New Zealand, on about 15 islands around the north and in Cook Strait. The biggest colonies are on the Hen and Chickens and Mercury Islands and on Ohinau Island. Many have drowned on fishing hooks and lines. Rat eradications on their breeding islands and changes in fishing practice have helped, and in 2021 they were moved out of the Threatened categories.",
+     "behaviour": "Toanui fly on long, broad wings and make shallow dives into fish shoals, sometimes down to 30 m. They're bold around boats, sitting behind recreational fishers and diving for bait and scraps, which is how many get hooked.",
+     "fun_fact": "They're named for their pale pink feet, and their pale pink bill has a dark tip. Like rako, they spend the southern winter in the North Pacific, off eastern Japan. Young birds first come back to the colonies at about four years old.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/flesh-footed-shearwater",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Seen on the water around the island from spring to autumn, especially from November to January. They gather behind fishing boats, so check any big dark shearwater following a boat for a pale bill."
+    },
+    {
+     "slug": "sooty-shearwater",
+     "name": "Sooty shearwater",
+     "maori": "tītī",
+     "sci": "Ardenna grisea",
+     "origin": "native",
+     "threat_status": "At Risk – Declining (NZTCS)",
+     "history": "About 21 million sooty shearwaters breed around New Zealand, mostly from Stewart Island to the subantarctic islands, and as far north as the Three Kings. These are the muttonbirds: on the islands around Rakiura/Stewart Island, Rakiura Māori still harvest about 400,000 chicks each April and May.",
+     "behaviour": "Tītī feed in huge flocks, flying into the water at a shallow angle and swimming after fish, squid and krill. Their dives average about 16 m, and birds have been recorded more than 60 m down. After feeding they rest together in big rafts on the sea.",
+     "fun_fact": "After breeding they fly a giant figure-of-eight around the Pacific, spending the southern winter off Japan, Alaska or California. Tracked birds covered about 64,000 km on the round trip, one of the longest migrations known for any animal. They can live for more than 20 years.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/sooty-shearwater",
+      "https://doi.org/10.1073/pnas.0603715103",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Uncommon this far north, and mostly seen in summer, offshore with flocks of other shearwaters. Look for a large, all-dark shearwater with silvery underwings.",
+     "presence_note": "An occasional visitor rather than a resident."
+    },
+    {
+     "slug": "cooks-petrel",
+     "name": "Cook's petrel",
+     "maori": "tītī",
+     "sci": "Pterodroma cookii",
+     "origin": "endemic",
+     "threat_status": "At Risk – Relict (NZTCS)",
+     "history": "Cook's petrels once nested on mountain tops and ranges across the North and South Islands. Today nearly all of them breed on Hauturu/Little Barrier, about 30 km north-east of Kawau, with a smaller population on Whenua Hou/Codfish Island and a few pairs on Aotea/Great Barrier. After kiore were removed from Hauturu in 2006, breeding success rose from 5% to 60%. About 286,000 pairs nested there in 2007.",
+     "behaviour": "A small, fast gadfly petrel that swings over the waves in high arcs on narrow wings. They feed far out to sea, mostly on small squid, and can cover thousands of kilometres on a single foraging trip. They come and go from the colony only at night, arriving about an hour after sunset.",
+     "fun_fact": "In the dark at the colony they make goat-like bleating calls, 'kek-kek-kek'. After breeding, Hauturu's birds spend the southern winter in the North Pacific, while the Whenua Hou birds go to the seas off Peru and Chile.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/cooks-petrel",
+      "https://www.doc.govt.nz/globalassets/documents/science-and-technical/nztcs36entire.pdf",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Seen offshore from October to February, most often in November, sometimes in large flocks heading to or from Hauturu. Look for a small grey-and-white seabird with a dark 'M' across its wings, swooping high over the waves."
+    },
+    {
+     "slug": "grey-faced-petrel",
+     "name": "Grey-faced petrel",
+     "maori": "ōi",
+     "sci": "Pterodroma gouldi",
+     "origin": "native",
+     "threat_status": "Not Threatened (NZTCS)",
+     "history": "Ōi breed only in northern New Zealand, in more than 100 colonies on islands and a few mainland headlands. One colony is on Challenger Island/Little Kawau, just 200 m off Kawau's south coast. Cats and rats are the main threats, and numbers have grown as islands are cleared of predators. Some iwi still harvest the chicks each November and December.",
+     "behaviour": "Unusually, ōi breed through the winter, laying a single egg from mid-June to late July. They feed at night, mostly on squid, and some forage thousands of kilometres away, as far as eastern Australia. Over the colony after dark they chase each other at high speed in courtship flights, calling 'whis-her' and 'wik-wik'.",
+     "fun_fact": "Ōi are long-lived: one bird reached at least 41 years, and most don't start breeding until they're 8–10. They were long treated as a race of the great-winged petrel of the southern Indian and Atlantic Oceans, and eBird still lists them under that name.",
+     "sources": [
+      "https://www.nzbirdsonline.org.nz/species/grey-faced-petrel",
+      "https://en.wikipedia.org/wiki/Challenger_Island_/_Little_Kawau_Island",
+      "https://ebird.org/hotspot/L521241"
+     ],
+     "where": "Rarely seen by day. Ōi come ashore after dark at Challenger Island/Little Kawau, from about March to January. At sea, look for a large, all-dark petrel with a pale grey face and a stout black bill."
+    },
+    {
      "slug": "pied-shag",
      "name": "Pied shag",
      "maori": "kāruhiruhi",
